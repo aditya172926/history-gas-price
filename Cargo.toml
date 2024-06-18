@@ -1,0 +1,11 @@
+[package]
+name = "gas_price_data"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.38"
+dotenv = "0.15.0"
+ethers = "2.0.14"
+tokio = { version = "1.38.0", features = ["full"] }
+url = "2.5.1"
